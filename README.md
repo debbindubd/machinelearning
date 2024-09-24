@@ -2,17 +2,33 @@
 
 This project is about ... (Briefly describe what your project does and its purpose).
 
-## Installation
+### Installation
 
 Follow these steps to install and set up the project on your local machine.
 
-### 1. Clone the Repository
-
 ```bash
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
+git clone https://github.com/debbindubde/machinelearning.git
+cd machinelearning
 
-2. Create a Virtual Environment
+# Navigate to the project directory
+cd machinelearning
 
 # Create a virtual environment
 python -m venv mlenv
+
+# Activate the virtual environment
+source mlenv/bin/activate  # For Linux/Mac
+source mlenv\Scripts\activate      # For Windows
+
+# Install dependencies
+pip install -r requirements.txt
+
+├── machinelearning
+│   ├──  notebook1.ipynb  # Jupyter notebook for analysis 1
+│   └──  notebook2.ipynb  # Jupyter notebook for analysis 2
+├── requirements.txt     # Contains the required dependencies
+├── README.md          # This file!
+
+
+# Example: Running a notebook
+jupyter lab
