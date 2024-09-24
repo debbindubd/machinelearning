@@ -1,6 +1,6 @@
 # Top 9 Machine Learning Algorithm Visualization for Sentimental Analysis
 
-This project is about ... (Briefly describe what your project does and its purpose).
+
 
 ### Installation
 
