@@ -7,7 +7,7 @@
 Follow these steps to install and set up the project on your local machine.
 
 ```bash
-git clone https://github.com/debbindubde/machinelearning.git
+git clone https://github.com/debbindubd/machinelearning.git
 cd machinelearning
 
 # Navigate to the project directory
